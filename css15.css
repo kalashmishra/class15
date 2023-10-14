@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    
+    }
+    
+    html , body{
+        width: 100%;
+        height: 100%;
+    }
+    #main{
+    
+        width: 100%;
+        height: 100%;
+       overflow: hidden;
+        
+       }
+      #main video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      } 
+      #overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(6, 6, 29, 0.156);
+      }
+      #nav{
+        width: 95%;
+        height: 50px;
+        background-color: black;
+        margin: 50px;
+      }
+      #sqr{
+        position: relative;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%,-50%);
+        width: 70%;
+        height: 25%;
+        background-color: rgb(7, 27, 248);
+        mix-blend-mode: color-dodge;
+        z-index: 0;
+      }
+      #card{
+        position: absolute;
+        top: -25%;
+        left: 80%;
+        transform: translate(-80%,-25%);
+        width: 150px;
+        height: 150px;
+        background-color: yellow;
+        background-image: url(https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+        background-position: center;
+        background-size: cover;
+        z-index: 9999;
+        
+      }
+      #srow{
+        width: 100%;
+        height:30%;
+        position: absolute;
+        top: 80%;
+        left: 0%;
+        transform: translate(0%, -50%);
+        
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      #srow #pleft{
+         margin-left: 5%;
+         width: 50%;
+         
+      
+        
+        }
+         #col{
+          width: 100%;
+          height: 20px;
+          color: #fff;
+          display: flex;
+          justify-content: space-between;
+          
+        
+    
+    }
+    #scol{
+       width: 100%;
+       margin-top: 10px;
+     
+    
+    }
+     .playlist{
+      
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+      margin-top: 10px;
+      
+    }
+     .thumbnail{
+      width: 100%;
+    
+      display: flex;
+      
+      
+    }
+    .thumbnail #image{
+      width: 30px;
+      height: 30px;
+      background-color: blue;
+      background-image: url(https://images.unsplash.com/photo-1446057032654-9d8885db76c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80);
+      background-size: cover;
+      background-position: center;
+      margin-right: 5px;
+      border-radius: 10px;
+    }
+    #sname h6{
+      font-weight: 200;
+    opacity: .5;
+    }
+    .song h5{
+      display: flex;
+    }
+     .song i{
+    
+    width:20px ;
+    height:20px ;
+    border-radius: 100%;
+    background-color: rgba(148, 253, 43, 0.936);
+    margin-left: 5px;
+    font-size: 20px;
+    color: #000;
+    
+      
+    }
+     #srow #pright{
+        margin-left: 5%;
+        width: 40%;
+        height: 100%;
+        
+      }
+      #pright #text{
+        width: 50%;
+        color: #fff;
+       }
+      #text h5{
+    font-family: "Montserrat";
+        margin-bottom: 20px;
+      }
+      #text p{
+        opacity: .9;
+        font-weight: 200;
+      }
